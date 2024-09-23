@@ -1,0 +1,154 @@
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 80px;
+
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  background-color: white;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.popup {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.popup label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.popup input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.popup textarea {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.popup button {
+  background-color: #211b77;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 30px;
+  width: 40%;
+}
+
+.CommunityPage {
+  height: 100%;
+}
+
+.navbar {
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+}
+
+.body {
+  margin-top: 65px;
+  display: flex;
+  flex: 1;
+}
+
+.box1 {
+  margin-left: 355px;
+  width: 53%;
+}
+
+.Sidebar {
+  position: fixed;
+}
+
+.Header {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 800px;
+}
+
+.Header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.userText {
+  /* display: flex; */
+  /* flex-direction: column; */
+  margin-left: 20px;
+  padding: 0;
+  width: 800px;
+}
+
+.userText h2 {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.userText h4 {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+.headerbtns {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  justify-content: space-between;
+}
+
+.headerbtns button {
+  background-color: #211b77;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 15px;
+  cursor: pointer;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.spinner {
+  padding-top: 10px;
+}
